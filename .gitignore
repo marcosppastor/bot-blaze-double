@@ -1,0 +1,14 @@
+# Env files
+.env
+# Log files
+*.log
+
+# Lock files
+yarn.lock
+
+# Node modules
+node_modules/
+
+# Build files
+build/
+dist/

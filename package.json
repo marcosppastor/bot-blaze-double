@@ -1,0 +1,27 @@
+{
+	"name": "bot-blaze-automatico",
+	"version": "0.0.2",
+	"author": "Felipe Medeiros <medeiros.dev@gmail.com>",
+	"main": "src/index.mjs",
+	"type": "module",
+	"license": "MIT",
+	"scripts": {
+		"dev": "node ./example/example-with-dotenv.mjs",
+		"example:dotenv": "node ./example/example-with-dotenv.mjs",
+		"example": "node ./example/example-without-dotenv.mjs"
+	},
+	"dependencies": {
+		"chalk": "^5.0.1",
+		"figlet": "^1.5.2",
+		"gradient-string": "^2.0.1",
+		"ora": "^6.1.2",
+		"readline-sync": "^1.4.10",
+		"request": "^2.88.2",
+		"request-promise": "^4.2.6",
+		"telegraf": "^4.8.6",
+		"ws": "^8.8.1"
+	},
+	"devDependencies": {
+		"dotenv": "^16.0.1"
+	}
+}

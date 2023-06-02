@@ -1,0 +1,21 @@
+{
+	"allowAutoBet": true,
+	"enterProtection": true,
+
+	"minimumBetAmount": 1.1,
+
+	"multipleBetColor": 1.4,
+	"multipleBetWhite": 1.5,
+
+	"initialBalance": 80,
+	"initialBetColor": 12,
+	"initialBetWhite": 2,
+
+	"sequenceForTrend": 3,
+
+	"stopLoss": 0.15,
+	"stopLossTime": 60,
+
+	"stopWin": 1.7,
+	"stopWinTime": 15
+}
